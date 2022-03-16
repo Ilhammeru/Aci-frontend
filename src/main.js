@@ -5,6 +5,11 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+// import 3rd party
+import './lib/bootstrap'
+import './lib/fontawesome'
+import './lib/axios'
+
 new Vue({
   router,
   store,
